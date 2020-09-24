@@ -58,3 +58,11 @@ Suggests: prodlim, cmprsk, testthat (>= 0.11), ucminf, knitr, bookdown,
 License: GPL (>= 2)
 MD5sum: d8e6b42a66d89ac0b2558e4e9ac3a326
 NeedsCompilation: yes
+
+Package: mvtnorm
+Version: 1.1-1
+Depends: R(>= 3.5.0)
+Imports: stats, methods
+License: GPL-2
+MD5sum: 64218e87298faab59415e219413e4412
+NeedsCompilation: yes

@@ -44,7 +44,7 @@ Package: lava.tobit
 Version: 0.5.1
 Depends: lava (>= 1.5), mvtnorm, survival
 License: GPL-3
-MD5sum: 241a575613b852706eadb2c29330c0b9
+MD5sum: fff95c6780565a4603c55c89fc934518
 NeedsCompilation: no
 
 Package: mets

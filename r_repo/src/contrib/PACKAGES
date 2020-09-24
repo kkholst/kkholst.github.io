@@ -9,17 +9,36 @@ MD5sum: 09842353d88d8a0d9c1979c4cd9411f5
 NeedsCompilation: yes
 
 Package: lava
-Version: 1.6.7
+Version: 1.6.8
 Depends: R (>= 3.0)
 Imports: grDevices, graphics, methods, numDeriv, stats, survival,
         SQUAREM, utils
 Suggests: KernSmooth, Matrix, Rgraphviz, data.table, ellipse, fields,
-        foreach, geepack, gof (>= 0.9), graph, igraph (>= 0.6),
-        lava.tobit (>= 0.4.7), lme4, mets (>= 1.1), nlme, optimx,
-        polycor, quantreg, rgl, testthat (>= 0.11), visNetwork, zoo
+        foreach, geepack, gof (>= 0.9), graph, knitr, bookdown,
+        rmarkdown, igraph (>= 0.6), lava.tobit (>= 0.4.7), lavaSearch2,
+        lme4, magrittr, mets (>= 1.1), nlme, optimx, polycor, quantreg,
+        rgl, R.rsp (>= 0.40), testthat (>= 0.11), visNetwork, zoo
 License: GPL-3
-MD5sum: 3b1b88d532e7b80db5ab326d6785a269
+MD5sum: cb9a345136fadc1e03f0e0e201b02491
 NeedsCompilation: no
+
+Package: lava.mixture
+Version: 0.3
+Depends: R (>= 2.15), lava (>= 1.4), mets (>= 1.0)
+Imports: SQUAREM,ucminf,numDeriv
+Suggests: rgl,ellipse
+License: GPL-3
+MD5sum: 54490882e8a6a0b6fc8131ae40016a8d
+NeedsCompilation: no
+
+Package: lava.nlin
+Version: 0.2-6
+Depends: R (>= 3.0.2), lava (>= 1.4.7)
+Imports: MASS, coda, survival, numDeriv, optimx, Rcpp (>= 0.11)
+LinkingTo: Rcpp, RcppArmadillo (>= 0.6)
+License: GPL
+MD5sum: 6e94bf45cf93f0b66e0f254079b064bb
+NeedsCompilation: yes
 
 Package: lava.tobit
 Version: 0.5
